@@ -103,10 +103,4 @@ document.addEventListener('DOMContentLoaded', () => {
 // Run animation on scroll
 window.addEventListener('scroll', animateOnScroll);
 
-// Parallax effect for hero section
-const hero = document.querySelector('.hero');
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const parallaxSpeed = 0.5;
-    hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
-});
+// Removed parallax effect to fix section overlap issue
