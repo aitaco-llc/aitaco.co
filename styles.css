@@ -557,6 +557,7 @@ body {
 
     .hero-image {
         order: -1;
+        margin-top: 15px;
     }
 
     .taco-image {
